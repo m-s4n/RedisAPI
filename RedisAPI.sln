@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.API", "Redis.API\Redis.API.csproj", "{DC61C41C-F2CA-4F04-BB56-E7C01458BF34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.API", "Redis.API\Redis.API.csproj", "{DC61C41C-F2CA-4F04-BB56-E7C01458BF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisOrnek", "RedisOrnek\RedisOrnek.csproj", "{6C703B8D-A979-4EDF-B8D6-ADD232946E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Cache", "Redis.Cache\Redis.Cache.csproj", "{FE739D31-E9C8-4F6A-AB9D-959BC5359244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DC61C41C-F2CA-4F04-BB56-E7C01458BF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC61C41C-F2CA-4F04-BB56-E7C01458BF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC61C41C-F2CA-4F04-BB56-E7C01458BF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C703B8D-A979-4EDF-B8D6-ADD232946E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C703B8D-A979-4EDF-B8D6-ADD232946E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C703B8D-A979-4EDF-B8D6-ADD232946E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C703B8D-A979-4EDF-B8D6-ADD232946E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE739D31-E9C8-4F6A-AB9D-959BC5359244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE739D31-E9C8-4F6A-AB9D-959BC5359244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE739D31-E9C8-4F6A-AB9D-959BC5359244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE739D31-E9C8-4F6A-AB9D-959BC5359244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
