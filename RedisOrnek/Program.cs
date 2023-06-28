@@ -4,6 +4,9 @@ using RedisOrnek.Database;
 using RedisOrnek.Repositories;
 using RedisOrnek.Services;
 using StackExchange.Redis;
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using RedisOrnek.Container;
 
 var builder = WebApplication.CreateBuilder(args);
 

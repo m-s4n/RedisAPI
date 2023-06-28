@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc.Infrastructure;
+﻿
 using RedisOrnek.Models;
 using RedisOrnek.Repositories;
 
